@@ -1,27 +1,56 @@
+body {
+    background-color: gainsboro;
+}
 header { 
     background-color: rgba(72, 109, 109, 0.281);
-display: inline-block; 
-height: 50px;
-width: 600px;
-margin-left: calc((100%-600)/2);
-margin-left: calc((100%-600)/2);
-font-size: 0.3cm;
+    width: 900px;
+    margin-left: calc((100% - 900px) / 2);
+    margin-right: calc((100% - 900px) / 2);
+}
 
+header > *{
+    display: inline-block;
 }
 
 main {
     background-color: rgba(46, 173, 63, 0.438);
     display: inline-block;
-    width: 80px;
-    margin-left: calc((100%-600)/2);
-    margin-left: calc((100%-600)/2);
+    width: 900px;
+    margin-left: calc((100% - 900px) / 2);
+    margin-right: calc((100% - 900px) / 2);
     font-size: 1cm;
+    text-decoration: none;
 }
+
 .small-image { 
     height: 50px;
     
     }
-  .large-image {
+.large-image {
     height: 320px;
-
 }
+
+nav{
+    float: 160px;
+}
+#left{
+    background-color: red;
+   
+}
+.btn {
+    color: royalblue;
+    text-decoration: none;
+    margin: 6px
+    px;
+}
+.sing{
+    border-color: grey;
+    border-style: solid;
+    padding: 5px 20px; 
+}
+/* .test {
+    background-color: royalblue;
+    width: 150px;
+    height: 150px;
+    padding: 25px;
+} */
